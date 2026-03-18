@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Controle de Coletas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <img src="imagens/PAPION.png" alt="">
+        <h2>🚚 Coletas e Entregas</h2>
+        
+        <div class="form-group">
+            
+            <input type="text" id="nome" placeholder="Nome do Cliente/Fornecedor">
+            
+            <select id="tipo">
+                <option value="3/4">Vuc</option>
+                <option value="Truck">Truck</option>
+                <option value="Carro">Carro</option>
+                <option value="Carreta">Carreta</option>
+                <option value="Toco">Toco</option>
+                <option value="Van">Van</option>
+                <option value="Moto">Moto</option>
+                <option value="Fiorino">Fiorino</option>
+                <option value="TruckAberto">Truck Aberto</option>
+                <option value="CarretaAberta">Carreta Aberta</option>
+
+                
+                
+            </select>
+            <input type="texy" id="phone" onkeyup="handlePhone(event)" maxlength="11" placeholder="(00) 00000-0000">
+            <input type="text" id="placa" placeholder="Placa" maxlength="8" style="text-transform: uppercase;">
+
+            <button onclick="adicionarColeta()" class="btn-add">Registrar Chegada</button>
+        </div>
+
+        <hr>
+        <button onclick="buscarColetas()" class="btn-refresh">🔄 Atualizar Lista</button>
+
+        <div id="listaColetas">
+            </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

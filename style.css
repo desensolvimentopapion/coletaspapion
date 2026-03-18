@@ -1,0 +1,70 @@
+body { font-family: Arial, sans-serif; background-color: #4444aa; padding: 50px; }
+
+
+
+.container { max-width: 600px; margin: auto; background: rgba(255, 255, 255, 0.945); padding: 20px; border-radius: 10px; box-shadow: 0 4px 10px rgba(0,0,0,0.1); }
+
+
+
+h2 { padding: 30px;
+    text-align: center; 
+    color: #d35d0f; 
+    font-family:'Times New Roman', Times, serif;
+    font-size: 30px;
+}
+    
+
+img{
+    width: 120px;
+}
+.form-group { display: flex; 
+    flex-direction: column; 
+    gap: 10px;
+     margin-bottom: 20px; }
+
+
+
+input, button { padding: 12px; 
+    border-radius: 5px; 
+    border: 1px solid #ccc; 
+    font-size: 16px; }
+select{
+    padding: 12px; width: 132px;border-radius: 5px; border: 1px solid #ccc;;
+}
+
+.btn-add { background-color: #ff6f1c; color: white; border: none; cursor: pointer; font-weight: bold; }
+
+
+.btn-refresh { width: 100%; background-color: #076edd; color: white; border: none; margin-bottom: 20px; cursor: pointer; }
+
+/* Estilo dos Cards da Fila */
+.card-coleta {
+    
+    background: #ffffff;
+    border-left: 5px solid #2a28a7;
+    border-radius: 4px;
+    padding: 15px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+.info strong { font-size: 15px; color: #222; }
+.info span { font-size: 14px; color: #666; display: block; }
+
+.btn-liberar { background-color: #dc3545; color: white; border: none; padding: 0px 10px; border-radius: 4px; cursor: pointer; }
+.btn-liberar:hover { background-color: #a71d2a; }
+
+
+
+.acoes{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.placa{
+    width:90px;
+}
