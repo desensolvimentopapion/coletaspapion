@@ -1,4 +1,4 @@
-const URL_API = "https://script.google.com/macros/s/AKfycbzr3-LyqL1nzwI3f3zOUKhyNwwrcsDS0crMgbH8ZjwjTCkclYnzsnl84StpHtwuXtR-hg/exec";
+const URL_API = "https://script.google.com/macros/s/AKfycbwgugplcfi-Zd6A57E-zMcrBDiFYWbq43ioC5Cuz_WdcPObv5E9e5S--G1xd_4FjXpPqg/exec";
 
 // Função para criar o HTML do card (para não repetir código)
 function criarCardHTML(item) {
